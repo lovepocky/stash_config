@@ -9,7 +9,7 @@ dns:
   # 支持 UDP / TCP / DoT / DoH / DoQ 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Stash 会使用最先获得的解析记录回复 DNS 请求
-  nameserver: #!replace
+  nameserver:
     # 不建议配置超过 2 个 DNS 服务器，会增加系统功耗
     - https://dns.google/dns-query
     # - https://doh.pub/dns-query
