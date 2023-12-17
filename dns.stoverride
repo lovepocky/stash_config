@@ -14,4 +14,4 @@ dns:
     - https://dns.google/dns-query
     # - https://doh.pub/dns-query
     # - https://dns.alidns.com/dns-query
-    - system # 使用 iOS 系统 DNS
+    # - system # 使用 iOS 系统 DNS
