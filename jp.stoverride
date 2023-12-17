@@ -5,6 +5,7 @@ proxy-groups:
     type: select
     proxies:
     - 自动日本
+    - DIRECT
   - filter: 日本
     include-all: true
     name: 自动日本
