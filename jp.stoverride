@@ -1,12 +1,16 @@
 name: 增加自动日本组
 
-proxy-groups:
+proxy-groups: #!replace
   - name: PROXY
     type: select
     proxies:
     - 自动日本
+    - 自动所有
     - DIRECT
   - filter: 日本
     include-all: true
     name: 自动日本
+    type: url-test
+  - include-all: true
+    name: 自动所有
     type: url-test
